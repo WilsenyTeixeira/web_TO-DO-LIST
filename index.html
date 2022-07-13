@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="item1">
+                <img src="public/assets/well-organized-logo.png" alt="">
+            </div>
+            <div class="item2">
+                <p>A fazer</p>
+                <p>|</p>
+                <p>Arquivadas</p>
+            </div>
+            <div class="item3">
+                <p>olá</p>
+            </div>
+        </div>
+    </header>
+    <div class="addTarefa">
+        <!-- <button type="button" id="btnAdd"><img src="public/assets/task-add-icon.png" alt=""></button>
+        <label for="btnAdd">Adicionar Tarefa</label> -->
+        <label for="desc">Descrição</label>
+        <input type="text" name="desc" id="desc">
+        <label for="addTask">Cor</label>
+        <div class="radio-div azul"></div>
+        <div class="radio-div verde"></div>
+        <div class="radio-div rosa"></div>
+        <div class="radio-div roxo"></div>
+        <div class="radio-div amarelo"></div>
+        <div class="radio-div laranja"></div>
+        <div class="radio-div branco"></div>
+        <button type="button" id="addTask">Adicionar</button>
+    </div>
+    <div class="post-it">
+        <div class="card done ">
+            <div class="header-postit">
+                <img src="public/assets/checked.png" alt="checked">
+                <p>Concluída</p>
+            </div>
+            <div class="task-postit azul">
+                <p>Estudar HTML</p>
+            </div>
+            <div class="icone-postit azul">
+                <img src="public/assets/archive-color.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card done ">
+            <div class="header-postit">
+                <img src="public/assets/checked.png" alt="checked">
+                <p>Concluída</p>
+            </div>
+            <div class="task-postit verde">
+                <p>Estudar CSS</p>
+            </div>
+            <div class="icone-postit verde">
+                <img src="public/assets/archive-color.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card done ">
+            <div class="header-postit">
+                <img src="public/assets/checked.png" alt="checked">
+                <p>Concluída</p>
+            </div>
+            <div class="task-postit rosa">
+                <p>Concluir estudos sobre layouts responsivos</p>
+            </div>
+            <div class="icone-postit rosa">
+                <img src="public/assets/archive-color.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card done ">
+            <div class="header-postit">
+                <img src="public/assets/checked.png" alt="checked">
+                <p>Concluída</p>
+            </div>
+            <div class="task-postit roxo">
+                <p>Estudar o bootstrap framework</p>
+            </div>
+            <div class="icone-postit roxo">
+                <img src="public/assets/archive-color.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card notdone postit2">
+            <div class="header-postit">
+                <img src="public/assets/unchecked.png" alt="checked">
+                <p>Não concluída</p>
+            </div>
+            <div class="task-postit amarelo">
+                <p>Estudar JavaScript:
+                    - Array
+                    - Strings
+                    - Function
+                    - Callbacks
+                </p>
+            </div>
+            <div class="icone-postit amarelo">
+                <img src="public/assets/archive-gray-scale.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card notdone postit2">
+            <div class="header-postit">
+                <img src="public/assets/unchecked.png" alt="checked">
+                <p>Não concluída</p>
+            </div>
+            <div class="task-postit laranja">
+                <p>Estudar PHP:
+                    - Arrays Assoc.
+                    - Global Vars
+                    - Sessões
+                    - Cookies1
+                </p>
+            </div>
+            <div class="icone-postit laranja">
+                <img src="public/assets/archive-gray-scale.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+        <div class="card notdone postit2">
+            <div class="header-postit">
+                <img src="public/assets/unchecked.png" alt="checked">
+                <p>Não concluída</p>
+            </div>
+            <div class="task-postit branco">
+                <p>Estudar NodeJS:
+                    - Async Tasks
+                    - Sorting
+                    - Pagination
+                    - Filtering
+                </p>
+            </div>
+            <div class="icone-postit branco">
+                <img src="public/assets/archive-gray-scale.png" alt="arquivado">
+                <img src="public/assets/trash-gray-scale.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
