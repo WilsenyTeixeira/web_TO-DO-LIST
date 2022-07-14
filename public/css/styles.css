@@ -19,8 +19,10 @@ label {
     font-weight: 500;
     font-size: 18px;
     color:  #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .item1 {
     width: 33.33vw;
@@ -76,6 +78,7 @@ label {
 
 #btnAdd {
     border: none;
+    display: none;
 }
 
 
@@ -186,3 +189,12 @@ label {
     background-color: #ffffff;
     color: #727272;
 }
+
+/*
+.labelBtn {
+    color: #2196f3;
+    font-size: 20px;
+}
+ label img {
+    margin-right: 10px;
+ }*/
